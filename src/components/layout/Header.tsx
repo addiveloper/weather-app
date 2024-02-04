@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { GradToggle } from "../grad/GradToggle";
 import { ThemeToggle } from "../themes/ThemeToggle";

@@ -11,6 +11,8 @@ import { HoursForecast } from "@/components/forecast_info/HoursForecast";
 import { AirInfo } from "@/components/forecast_info/AirInfo";
 import { searchParams } from "@/interfaces/searchParams";
 
+export const revalidate = 0;
+
 export default async function Home({
   searchParams,
 }: {
